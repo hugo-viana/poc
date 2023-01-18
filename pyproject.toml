@@ -20,7 +20,7 @@ classifiers = [
     "Topic :: Software Development",
 ]
 
-[project.entry-points.pre-commit-msg]
+[project.entry-points.console_scripts]
 pre-commit-msg = "pre_commit_msg.hook"
 
 [project.urls]
