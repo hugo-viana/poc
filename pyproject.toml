@@ -21,7 +21,7 @@ classifiers = [
 ]
 
 [project.entry-points.console_scripts]
-pre-commit-msg = "pre_commit_msg.hook"
+pre-commit-msg = "pre_commit_msg.hook:main"
 
 [project.urls]
 "Homepage" = "https://github.com/hugo-viana/pre-commit-msg"
